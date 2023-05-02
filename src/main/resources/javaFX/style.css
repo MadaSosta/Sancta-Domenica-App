@@ -1,0 +1,115 @@
+
+* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+    -fx-font-family: "Roboto",  sans-serif;
+}
+
+.root {
+    -fx-background-color: rgb(8, 69, 126);
+}
+
+.menu {
+    -fx-background-color: transparent;
+    -fx-backdrop-blur: 10px;
+}
+
+.context-menu {
+    -fx-background-color: transparent;
+}
+
+.menu-bar {
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+
+.menu-bar .label {
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 0,1,1,1 );
+}
+
+.menu-item {
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+
+.menu-item:hover {
+    -fx-text-fill: cyan;
+}
+
+.label {
+    -fx-text-fill: rgba(255, 255, 255, 0.8);
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255, 255, 255, 0.52);
+    -fx-border-radius: 20px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: rgba(255, 255, 255, 0.8);
+}
+
+.button:hover {
+    -fx-border-color: white;
+    -fx-border-radius: 20px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: "white";
+}
+
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.52);
+    -fx-prompt-text-fill: rgba(0, 0, 0, 0.70);
+}
+
+.combo-box {
+    -fx-background-color: rgba(255, 255, 255, 0.52);
+}
+
+.list-view {
+    -fx-background-color: rgba(255, 255, 255, 0.52);
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+}
+.table-row-cell {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: white;
+}
+.table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: cyan;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #93f9b911;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+.table-row-cell:even{
+    -fx-background-color: #1dbbdd11;
+    -fx-background-insets: 0, 0 0 1 0;
+}
